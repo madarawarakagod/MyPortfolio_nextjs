@@ -38,6 +38,7 @@ className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>
     initial={{opacity:0}} 
     whileInView={{opacity:1}} 
     transition={{duration: 0.6,delay:0.7}} 
+    
     className='max-w-1xl mx-auto font-Ovo'>
     Aspiring full-stack developer creating responsive, user-friendly web apps
      using modern technologies.
@@ -60,7 +61,7 @@ href="#contact" className='px-10 py-3 border border-white rounded-full bg-black 
     whileInView={{y:0,opacity:1}} 
     transition={{duration: 0.6,delay:1.2}} 
 
-    href="/myresume.pdf" download className='px-10 py-3 border
+    href="/sample-resume.pdf" download className='px-10 py-3 border
     rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'
     >my resume <Image src={assets.download_icon} alt='' 
     className='w-4'/></motion.a>
