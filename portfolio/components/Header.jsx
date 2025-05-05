@@ -51,7 +51,7 @@ transition={{duration: 0.6,delay:1}}
 
 href="#contact" className='px-10 py-3 border border-white rounded-full bg-black text-white
  flex items-center gap-8 dark:bg-transparent'>
-    my resume <Image src={assets.right_arrow_white} alt='' 
+    Contact me<Image src={assets.right_arrow_white} alt='' 
     className='w-4'/></motion.a>
     
  
